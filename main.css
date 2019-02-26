@@ -224,6 +224,10 @@ font-size: 16px;
 }
 .padd-25{
     padding: 25px;
+    
+}
+.padd-40{
+    padding: 40px; 
 }
 .padd-20{
      padding: 20px;
@@ -711,7 +715,7 @@ for better animation effect */
   grid-column: 1/8;
 }
 .news3-style{
-    height: 49px;
+    height: 55px;
     min-width: 267px;
     width: 90%;
     color: #656565;
@@ -890,7 +894,8 @@ for better animation effect */
 }
 /*Gallery Box CSS End*/
 .sm-box{
-    height: 140px;
+    height: 165px;    
+    /*height: 140px;*/
     /*width: 25%;*/
     text-align: center;
 }

@@ -65,7 +65,7 @@
                             <a href="#" class="text-left text-deco-none">
                                 <span class="main-menu">
                                      <img src="./assets/main_menu3.png" alt="menu3" class="padd-r5">
-                                     FINANCE
+                                     FINANCE             
                                 </span>
                             </a>
                             <div class="dropdown-container"></div>
@@ -196,24 +196,24 @@
                 </div>
                 <div class="col-md-9 col-md-pull-3 col-sm-12 col-xs-12">
                     <div class="row">
-                        <div class="col-md-8 col-xs-12 col-sm-6 no-padd-left">
+                        <div class="col-md-8 col-xs-12 col-sm-6 no-padd-left" id="bannerImg">
                             <img src="./assets/main_img.png" alt="Intranet Logo" class="width100 height271">
                         </div>
-                        <div class="col-md-4 col-xs-12 col-sm-6 no-padd-left">
+                        <div class="col-md-4 col-xs-12 col-sm-6 no-padd-left " id="pgImg">
                             <img src="./assets/play_ground.png" alt="play_ground" class="width100 height271">
                         </div>
                     </div>
                     <div class="row p-top15">
-                        <div class="col-md-3 col-xs-6 col-sm-6 no-padd-left">
-                            <div class="bg-white sm-box padd-25">
+                        <div class="col-md-3 col-xs-6 col-sm-6 no-padd-left" id="timeSheet1">
+                            <div class="bg-white sm-box padd-40">
                                 <div class="timesheet">
                                      <img src="./assets/timesheet.png" alt="" class="">
                                 </div>
                                 <div class="timesheet-text-style">TIME SHEET</div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-xs-6 col-sm-6 no-padd-left">
-                            <div class="bg-white sm-box padd-25">
+                        <div class="col-md-3 col-xs-6 col-sm-6 no-padd-left" id="myLeave">
+                            <div class="bg-white sm-box padd-40">
                                 <div class="my_leave">
                                      <img src="./assets/my_leave.png" alt="" class="">
                                 </div>
@@ -221,15 +221,15 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-xs-6 col-sm-6 no-padd-left">
-                            <div class="bg-white sm-box padd-25">
+                            <div class="bg-white sm-box padd-40">
                                 <div class="help_desk">
                                      <img src="./assets/help_desk.png" alt="" class="">   
                                 </div>
                                 <div class="timesheet-text-style">HELP DESK</div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-xs-6 col-sm-6 no-padd-left">
-                            <div class="bg-white sm-box padd-25">
+                        <div class="col-md-3 col-xs-6 col-sm-6 no-padd-left" id="travel">
+                            <div class="bg-white sm-box padd-40">
                                 <div class="travel">
                                      <img src="./assets/travel.png" alt="" class="">   
                                 </div>
@@ -243,7 +243,7 @@
             <div class="row m-lp1 m-rp1 p-top15">
                 <div class="col-md-9 col-xs-12 col-sm-12">
                     <div class="row">
-                        <div class="col-md-6 col-xs-12 col-sm-12 no-padd-left">
+                        <div class="col-md-6 col-xs-12 col-sm-12 no-padd-left" id="blog">
                             <div class="grid-blo bg-white">
                                 <div class="row">
                                     <div class="col-md-2 col-xs-2 col-sm-1">
@@ -283,7 +283,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-xs-12 col-sm-12 no-padd-left">
+                        <div class="col-md-6 col-xs-12 col-sm-12 no-padd-left" id="gallery">
                             <div class="grid-gallery">
                                 <div class="row">
                                     <div class="col-md-2 col-xs-2 col-sm-1">
@@ -315,7 +315,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-xs-12 col-sm-12">
+                <div class="col-md-3 col-xs-12 col-sm-12" id="thirdIssue">
                     <div class="row bg-white">
                         <div class="col-xs-12 no-padd-left no-padd-right">
                             <div class="row padd-15">
@@ -433,6 +433,30 @@
             });
             }
          // side navigation main dropdown and sub menu End
+
+        //  Mobile device handling responsive ui start
+        $(document).ready(function(){
+            if(window.screen.width <= 425){
+                alert("screen size is small")
+                document.getElementById("bannerImg").setAttribute("style", "padding-right: 0px; padding-top: 15px;");
+
+                document.getElementById("pgImg").style.paddingRight = "0px";
+                document.getElementById("myLeave").setAttribute("style", "padding-right: 0px; padding-bottom: 15px;");
+                document.getElementById("timeSheet1").setAttribute("style", "padding-bottom: 15px;");
+                
+                document.getElementById("travel").style.paddingRight = "0px";
+                document.getElementById("blog").style.paddingRight = "0px";
+                document.getElementById("gallery").setAttribute("style", "padding-right: 0px; padding-top: 15px;");
+                document.getElementById("thirdIssue").setAttribute("style", "padding-top: 15px;");
+                
+                
+
+                
+                
+            }
+        });
+        //  Mobile device handling responsive ui end
+        
     </script>
 
 </body>
