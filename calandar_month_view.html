@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.fontawesome.com/da669e42df.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="main-padd">
+        <div class="intra-body">
+            <!--Header Section Start-->
+
+            <!--Header Section End-->
+
+            <!--Main Body Section Start For Calandar Month View Page-->
+            <div class="intra-main m-top50 " style="color: #656565;">
+                <div class="row">
+                    <div class="col-md-3">
+                        <button class="accordion cal-month-filter-text">Locations</button>
+                            <div class="panel no-margin-bottom">
+                                <label class="container-check-box">
+                                    <span class="month-view-text">All</span>
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container-check-box">
+                                    <span class="month-view-text">Bangalore</span>
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container-check-box">
+                                    <span class="month-view-text">Pune</span>
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container-check-box">
+                                    <span class="month-view-text">Hyderabad</span>
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container-check-box">
+                                    <span class="month-view-text">Chennai</span>
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                        </div>  
+                          <button class="accordion cal-month-filter-text">Events</button>
+                            <div class="panel no-margin-bottom">
+                                <label class="container-check-box">
+                                <span class="month-view-text">All</span>
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container-check-box">
+                                <span class="month-view-text">Bangalore</span>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            </label>
+                            <label class="container-check-box">
+                                <span class="month-view-text">Pune</span>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            </label>
+                            <label class="container-check-box">
+                                <span class="month-view-text">Hyderabad</span>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            </label>
+                            <label class="container-check-box">
+                                <span class="month-view-text">Chennai</span>
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            </label>
+                        </div>  
+                    </div>
+                    <div class="col-md-9">Month View </div>
+                    
+
+                </div>
+
+
+            </div>
+            <!--Main Body Section End For Calandar Month View Page-->
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <script>
+        // hamburger Method
+
+
+        // Search popup start
+
+        // Search popup end
+
+        // Add active class to the current Menu option (highlight it) Start
+
+        // Add active class to the current Menu option (highlight it) End
+        // side navigation main dropdown and sub menu Start
+
+
+        // side navigation main dropdown and sub menu End
+
+        //  Mobile device handling responsive ui start
+        $(document).ready(function () {
+            if (window.screen.width <= 425) {
+                // alert("screen size is small")
+                document.getElementById("bannerImg").setAttribute("style", "padding-right: 0px; padding-top: 15px;");
+                document.getElementById("pgImg").style.paddingRight = "0px";
+                document.getElementById("myLeave").setAttribute("style", "padding-right: 0px; padding-bottom: 15px;");
+                document.getElementById("timeSheet1").setAttribute("style", "padding-bottom: 15px;");
+                document.getElementById("travel").style.paddingRight = "0px";
+                document.getElementById("blog").style.paddingRight = "0px";
+                document.getElementById("gallery").setAttribute("style", "padding-right: 0px; padding-top: 15px;");
+                document.getElementById("thirdIssue").setAttribute("style", "padding-top: 15px;");
+
+                // $("#intraNetImg").attr("src","./assets/blog_img1.png");   
+            } if (window.screen.width > 425 && window.screen.width <= 768) {
+
+                // alert("screen size is Medium")
+                // this.intraNetImg = "./assets/blog_img2.png";
+                // $("#intraNetImg").attr("src","./assets/dcult_img.png");
+            }
+            if (window.screen.width >= 1024) {
+
+                // alert("screen size is Large")
+                // $("#intraNetImg").attr("src","./assets/main_img.png");
+            }
+        });
+        //  Mobile device handling responsive ui end
+
+        // HR Tabs view Start
+        $(document).ready(function () {
+            element = document.getElementById('activeMe');    
+            //   tablinks = document.getElementsByClassName("tablink");
+             document.getElementById('Career').style.display = "block";
+            // evt.currentTarget.firstElementChild.className += " w3-border-red";
+            // debugger;
+            element.classList.add("w3-border-red");
+            // tablinks.classList.add(" w3-border-red");
+
+        });
+        function openCity(evt, cityName) {
+                debugger;
+                var i, x, tablinks;
+                x = document.getElementsByClassName("city");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                debugger;
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < x.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                 debugger;
+                evt.currentTarget.firstElementChild.className += " w3-border-red";
+            }
+         // HR Tabs view End
+
+        //  Accordian Start
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight){
+                    panel.style.maxHeight = null;
+                    } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                    } 
+                });
+                }
+        // Accordiam End
+    </script>
+
+</body>
+
+</html>

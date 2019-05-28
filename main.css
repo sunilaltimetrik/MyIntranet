@@ -170,7 +170,7 @@
 
 body {
     background: #F7F9FA;
-    padding: 15px;
+    /*padding: 15px;*/
     margin: 0;
     font-family: 'Roboto';
 }
@@ -192,7 +192,8 @@ body {
     width: 100%;
 }
 .height271{
-    height: 271px;  
+    /*height: 271px;  */
+    height: 315px;
 }
 .m-lp1{
     margin-left: 0.1%;
@@ -246,7 +247,7 @@ font-size: 16px;
 
 /*Header CSS Start*/
 .logo-padd{
-    padding: 20px 10px;
+    padding: 17px 25px;
 }
 
 /*Search start*/
@@ -360,7 +361,7 @@ font-size: 16px;
   display: block;
   padding: 12px 12px 12px 18%;
   text-decoration: none;
-  border-bottom: 1px solid #B6BFCB;
+  border-bottom: 1px solid #EDEFF2;;
 }
 
 /* Style the active class, and buttons on mouse-over */
@@ -440,6 +441,19 @@ font-size: 16px;
     width: 30px;
     background-repeat: no-repeat;
     display: inline-block;
+}.menu6, menu6.option{
+    background-image: url(./assets/menu6.png);
+     height: 21px;
+    width: 30px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.active .menu6 {
+    background-image: url(./assets/performance_icon_active.png);
+    height: 21px;
+    width: 30px;
+    background-repeat: no-repeat;
+    display: inline-block;
 }
 
 /*.vertical-menu a.option {
@@ -476,13 +490,14 @@ span.main-menu.active, span.main-menu:hover{
 
 .dropdown-btn{
     padding: 15px 0px 13px 15px;
-    border-bottom: 1px solid #B6BFCB;
+    /*border-bottom: 1px solid #B6BFCB;*/
+    border-bottom: 1px solid #E6E9ED;
 }
 
 /*Use drop "dropdown-btn" class if sub menu avil remove dropdown-btn1 class*/
 .dropdown-btn1{
     padding: 15px 0px 13px 15px;
-    border-bottom: 1px solid #B6BFCB;
+    border-bottom: 1px solid #EDEFF2;
 }
 /*Side menu list style End*/
 
@@ -583,7 +598,8 @@ a {
             background: white;
             content: '';
             height: 0.4rem;
-            width: 100%;
+            /*width: 100%;*/
+            width: 30px;
         }
 
         .nav-toggle .nav-toggle-bar {
@@ -662,6 +678,7 @@ for better animation effect */
 .width100p{
     width: 100%;
 } 
+
 .padd1-5p{
     padding: 1.5%;
 }
@@ -691,9 +708,9 @@ for better animation effect */
 
 /*NEWS Box CSS Start*/
 .grid-news {
-  display: grid;
-  grid-template-columns: auto  auto auto auto auto auto auto;
-  grid-gap: 1px;
+  /*display: grid;*/
+  /*grid-template-columns: auto  auto auto auto auto auto auto;*/
+  /*grid-gap: 1px;*/
   background-color: white;
 }
 
@@ -715,7 +732,7 @@ for better animation effect */
   grid-column: 1/8;
 }
 .news3-style{
-    height: 55px;
+    /*height: 55px;*/
     min-width: 267px;
     width: 90%;
     color: #656565;
@@ -723,20 +740,20 @@ for better animation effect */
     font-size: 14px;
     line-height: 16px;
     /*margin: 5% 0% 5% 5%;*/
-    margin: 20px 15px 22px 15px;
+    margin: 10px 15px 18px 15px;
 }
 .news-date {
-    height: 16px;
+    height: 18px;
     color: #000000;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 14px;
 }
 .news-box-title{
-    margin: 30px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
     color: #3E3E3E;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
-    letter-spacing: 2.67px;
+    /*letter-spacing: 2.67px;*/
 }
 /*NEWS Box CSS End*/
 
@@ -801,11 +818,12 @@ for better animation effect */
     line-height: 18px;
 }
 .blog-box-title{
-    margin: 27px 0px 0px 0px;
+    /*margin: 27px 0px 0px 0px;*/
+    margin: 15px 0px 0px 0px;    
     color: #3E3E3E;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
-    letter-spacing: 2.67px;
+    /*letter-spacing: 2.67px;*/
 }
 /*Blog Box CSS End*/
 /*Gallery Box CSS Start*/
@@ -837,11 +855,12 @@ for better animation effect */
   grid-column: 1/8;
 }*/
 .gallery-box-title{
-    margin: 27px 0px 0px 0px;
+    /*margin: 27px 0px 0px 0px;*/
+    margin: 15px 0px 0px 0px;    
     color: #3E3E3E;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
-    letter-spacing: 2.67px;
+    /*letter-spacing: 2.67px;*/
 }
 .grid-gallery-img{
   /*display: grid;*/
@@ -888,9 +907,10 @@ for better animation effect */
    background-size: cover;*/
 }
 .g-img-style{
-    height: 100%;
+    /*height: 100%;*/
+    height: 172px;
     width: 100%;
-    max-width: 240px;
+    /*max-width: 240px;*/
 }
 /*Gallery Box CSS End*/
 .sm-box{
@@ -1013,4 +1033,1013 @@ for better animation effect */
 }
 /*Main CSS End*/  
 
+/******************************News page CSS start*****************************/
+.f-18{
+    font-size: 18px;
+}
+.m-top50{
+    margin-top: 50px;
+}
+.no-padd{
+    padding: 0px;
+}
+.border-top-bottom{
+    border-top: 1px solid gray;
+    /*border-bottom: 1px solid gray;   */
+}
+.font-bold{
+    font-weight: bold;
+}
+.link-color{
+    color: #F26522;
+}
+.padd-btm15{
+    padding-bottom: 15px;
+}
+.padd-btm20{
+    padding-bottom: 20px;
+}
+.text-justify{
+    text-align: justify;
+}
+.p-btm10{
+    padding-bottom: 10px;
+}
+.f-24{
+    font-size: 24px;
+}
+/******************************News page CSS end******************************/
 
+/******************************Scrumble page CSS Start******************************/
+
+.main-padd{
+	padding: 15px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title-text{
+    color: #FFFFFF;	
+    /*font-family: "Proxima Nova";	*/
+    font-size: 42px;	
+    line-height: 52px;
+}
+.sub-title-text{
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 17px;
+}
+.big-img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.max-h270{
+    max-height: 270px;
+}
+/******************************Scrumble page CSS end******************************/
+
+/******************************Gallery page CSS Start******************************/
+.gallery-cat-title{
+    	opacity: 0.5;	
+        color: #656565;	
+        font-family: Roboto;	
+        font-size: 28px;	
+        font-weight: 500;	
+        line-height: 37px;
+}
+.red-btm-border {
+    border-bottom: 1px solid #F26522;
+    margin-bottom: 15px;
+}
+.h270{
+    height: 270px;
+}
+.cat-img-detail-text{
+    	color: #656565;	
+        font-family: Roboto;	
+        font-size: 14px;	
+        line-height: 19px;
+}
+/*ul>li>a{
+    text-align: center;
+}*/
+.bx-wrapper {
+    position: relative;
+    margin-bottom: 60px;
+    padding: 0;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -moz-box-shadow: 0 0 5px transparent !important;
+    -webkit-box-shadow: 0 0 5px transparent !important;
+    box-shadow: 0 0 5px transparent !important;
+     border: 0px solid #F7F9FA !important;
+    background: #F7F9FA !important;
+}
+/*.bx-wrapper .bx-prev {
+    left: -30px !important;
+}
+.bx-wrapper .bx-next {
+    right: -5px !important;
+}*/
+/******************************Gallery page CSS end******************************/
+
+/******************************News Paper page CSS Start******************************/
+.paper-card-date{
+    color: #656565;	
+    font-family: Roboto;	
+    font-size: 10px;	
+    line-height: 13px;
+}
+.paper-card-h1{
+    color: #000000;	
+    font-family: Roboto;	
+    font-size: 20px;	
+    font-weight: 500;	
+    line-height: 26px;
+}
+.paper-card-detail-text{
+    color: #656565;	
+    font-family: Roboto;	
+    font-size: 14px;	
+    line-height: 19px;	
+    text-align: justify;
+}
+.news-paper-body{
+    padding: 15px;
+}
+.news-paper-card-padd{
+    padding: 25px 15px 0px 15px;
+}
+.news-paper-card-shadow{
+    box-shadow: 0 2px 6px 0 rgba(47,83,151,0.1);
+}
+.news-card-fotter{
+    padding: 5px 15px 8px 0px;
+}
+.np-padd-r8p{
+    padding-right: 8%;
+}
+.top-left-corner{
+    position: absolute;
+    top: 18px;
+    left: 55px;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #F26522;
+}
+.news-top-box{
+    padding: 7px 22px 9px 23px;
+}
+.news-paper-btn{
+    background-color: #4F575D;
+    /*padding: 15px;*/
+    border: 0px;
+    color: white;
+    height: 40px;
+    width: 120px;
+}
+.color-black{
+    color: black;
+}
+.f-20 {
+    font: 20px;
+}
+.text-bold{
+    font-weight: bold;
+}
+/******************************News Paper page CSS end******************************/
+
+/******************************News HOME CSS START******************************/
+.timesheet-text-style1{
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.86px;
+    text-align: center;
+    padding-top: 10px;
+}
+.card-home{
+    height:90px; 
+    width: 100%; 
+    background-color: white;
+    padding-top: 15px;
+    box-shadow: 0 2px 6px 0 rgba(47,83,151,0.1);
+}
+div.partial-border{
+    position:relative;
+}
+
+div.partial-border:after{
+    content:''; 
+    width:60px; 
+    height:2px; 
+    background:#F26522; 
+    position:absolute; 
+    bottom:-15px;
+    left: 13px;
+}
+.blog-box-title1{
+    margin: 15px 0px 0px 0px;
+    color: #3E3E3E;
+    font-size: 16px;
+    font-weight: bold;
+    /*letter-spacing: 2px;*/
+    line-height: 17px;
+}
+.m-top15{
+    margin-top: 15px;
+}
+.m-top30{
+    margin-top: 30px;
+}
+.padd-2-5p{
+    padding: 2.5%;
+}
+.no-padd-r{
+    padding-right: 0px;
+}
+.padd-r15{
+    padding-right: 15px;
+}
+/* comment css class
+.gallery-top-text{
+    text-align: center;
+    color: white;
+}*/
+.top-left-corner-blog1{
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #F26522;
+    border-radius: 5px 0 0 0;
+}
+.top-left-corner-blog2{
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #F26522;
+}
+.news-top-box1{
+    width: 100px;
+    height: 30px;
+    padding: 6px;
+}
+
+.centered-blog {
+  position: absolute;
+  bottom: 0%;
+  /*left: 50%;
+  transform: translate(-50%, -50%);*/
+
+  margin: 0px 10px 10px 5px;
+}
+.title-text{
+    color: #FFFFFF;	
+    /*font-family: "Proxima Nova";	*/
+    font-size: 42px;	
+    line-height: 52px;
+}
+.sub-title-text{
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 17px;
+}
+.blog-small-text{
+    color: white;
+    font-size: 10px;
+}
+.text-white{
+    color: white;
+}
+.gallery-top-text-small{
+    text-align: left;
+    color: white;
+}
+.height201{
+    height: 201px;
+}
+.pg-text1{
+    color: #9B9B9B;	
+    font-family: Roboto;	
+    font-size: 12px;	
+    font-weight: 500;
+}
+.pg-link{
+    	color: #F26522;	
+    	font-size: 12px;	
+        font-weight: bold;
+}
+.padd-t5{
+    padding-top: 5px;
+}
+.padd-t55{
+    padding-top: 55px;
+}
+.padd-r15{
+    padding-right: 15px;
+}
+.width101p{
+    width: 101%;
+}
+.third-issue-text{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+.container-gallery:hover .gallery {
+  opacity: 0.8;
+}
+
+.container-gallery .gallery-top-text {
+  text-align: center;
+  color: transparent;
+}
+.container-gallery:hover .gallery-top-text {
+  opacity: 1;
+  text-align: center;
+  color: #fff;
+}
+.margin-btm{
+    margin-bottom: 26px;
+}
+.padd-btm7{
+    padding-bottom: 7px;
+}
+.tweets-title{
+    color: #3E3E3E;	
+	font-size: 14px;	
+    font-weight: 600;	
+    line-height: 19px;
+}
+.tweets-detail-text{
+    color: #3E3E3E;	
+    /*font-family: Roboto;	*/
+    font-size: 12px;	
+    font-weight: 500;	
+    line-height: 16px;
+}
+.tweets-date{
+    	color: #656565;	
+        /*font-family: Roboto;	*/
+        font-size: 10px;	
+        line-height: 13px;
+}
+.text-orange{
+   color: #F26522;	
+}
+.dashed-border{
+    border-bottom: 1px dashed #F26522;
+    /*border-style: dashed;*/
+}
+.logo-aligne{
+    text-align: right;
+    padding-right: 0px;
+    padding-top: 10px;
+}
+.dash-border-padd{
+    padding: 0 45px 0px 30px;
+}
+.tweet-row1-padd{
+    padding: 15px 20px 10px 20px;
+}
+.tweet-row2-padd{
+    padding: 15px 20px 10px 20px;
+}
+.tweet-title-padd{
+    padding: 12px 0px 0px 15px;
+}
+
+
+
+.m-l15{
+    margin-left: 15px;
+}
+.m-r30{
+    margin-right: 30px;
+}
+.m-r15{
+    margin-right: 15px;
+}
+.innovation-box-title{
+    margin: 15px 0px 0px 0px;
+    color: #3E3E3E;
+    font-size: 20px;
+    font-weight: bold;
+    /*letter-spacing: 2px;*/
+    line-height: 17px;
+}
+.padd-l30{
+    padding-left: 30px;
+}
+
+
+.box1{
+    height: 15px;	
+    width: 14px;	
+    background-color: #FE706E;
+    display: inline-block;
+}
+.box2{
+    background-color: #68ABFF;
+    height: 15px;	
+    width: 14px;
+    display: inline-block;
+}
+.box3{
+    background-color: #1C588C;
+    height: 15px;	
+    width: 14px;
+    display: inline-block;
+}
+.box4{
+    background-color: #45D9CA;
+    height: 15px;	
+    width: 14px;
+    display: inline-block;
+}
+.box5{
+    background-color: #CF72F6;
+    height: 15px;	
+    width: 14px;
+    display: inline-block;
+}
+.box6{
+    background-color: #FFB142;
+    height: 15px;	
+    width: 14px;
+    display: inline-block;
+}
+.box7{
+    background-color: #9B9B9B;
+    height: 15px;	
+    width: 14px;
+    display: inline-block;
+}
+.box1-text{
+    height: 16px;	
+    color: #3E3E3E;		
+    font-size: 12px;	
+    line-height: 16px;
+    display: inline
+}
+.inline-block{
+    display: inline-block;
+}
+.inline{
+    display: inline
+}
+.padd-r10{
+    padding-right: 10px
+}
+.background {
+    background-image: url(./assets/blog1.png);
+    position: relative;
+    height: 172px;
+    width: 100%;
+    border-radius: 5px;
+}
+.background1 {
+    background-image: url(./assets/blog2.png);
+    position: relative;
+    height: 172px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.mobile-padd-l30{
+    padding-left: 30px;
+}
+.medium-padd-l15{
+    padding-left: 15px;
+}
+.title-max-width{
+    max-width: 50px;
+}
+.title-text-padd{
+    padding-left: 30px;
+}
+.height98{
+    height: 98px;
+}
+.refer-box{
+    height: 65px;	
+    opacity: 0.94;	
+    border-radius: 4px;	
+    background-color: #F26522;
+}
+.m-height{
+    min-height: 65px;
+    opacity: 0.94;	
+    border-radius: 4px;	
+    background-color: #F26522;
+}
+.m-top60{
+    margin-top: 60px;   
+}
+.sm-carousel-box{
+    height: 35px; 
+    line-height: 35px;
+}
+.sm-carousel-text{
+    display: inline-block; 
+    vertical-align: middle; 
+    line-height: normal;
+    padding-left: 10px; 
+}
+.refer-your-friend {	
+    color: #FFFFFF;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: bold;
+}
+.refer-now {	
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+}
+.refer-img-box{
+    height: 65px;
+    width: 61px;
+    text-align: center;
+    padding: 21px 15px 15px 15px;
+    background-color: #E75916;
+}
+.scrumble-bold-text{
+    font-size: 16px;	
+    font-weight: bold;
+    color: black;
+}
+.pg-padd1{
+    padding: 25px 0px 0px 0px;
+}
+.pg-padd2{
+    padding: 8px 65px 0px 0px;
+}
+.m-width180{
+    min-width: 180px;
+}
+.padd-l15{
+    padding-left: 15px;
+}
+.inno-padd-b{
+    padding: 10px 15px 9px;
+
+}
+.height298{
+    height: 299px;
+}
+/******************************News HOME CSS End******************************/
+
+/******************************Gallery Tile CSS Start******************************/
+
+.col-half-offset{
+    /*margin-left:4.166666667%*/
+}
+a {
+    color: #656565;	
+    text-decoration: unset;
+}
+.inno-title1 {
+    margin: 15px 0px 0px 0px;
+    color: #3E3E3E;
+    font-size: 14px;
+    font-weight: bold;
+    /* letter-spacing: 2px; */
+    line-height: 17px;
+}
+.inno-sub-title {
+    color: #656565;
+    font-size: 14px;
+    font-weight: bold;    /* letter-spacing: 2px; */
+    line-height: 17px;
+}
+.height65{
+    height: 65px;
+}
+.inno-text-style{
+    min-width: 267px;
+    width: 90%;
+    color: #656565;
+    font-size: 12px;
+    line-height: 16px;
+    /* margin: 5% 0% 5% 5%; */
+    margin: 5px 15px 18px 15px;
+}
+.feed-h{
+    height: 188px;
+}
+.dcult-h{
+   height: 250px;
+}
+.box-shadow{
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.1);
+}
+/******************************HR Tile CSS Start******************************/
+.min-h200{
+    min-height: 200px;
+}
+.f-14{
+    font-size: 14px;
+}
+.inline1{
+    display: inline;
+    padding: 0px 2px 10px 3px;
+}
+.career-heading {	
+    color: #000000;	
+    font-size: 28px;	
+    font-weight: 500;	
+    line-height: 37px;
+}
+.inline-block{
+    /*padding-right: 20px;*/
+}
+
+/******************************HR Tile CSS Start******************************/
+
+/******************************Innovation and Transformation CSS Start******************************/
+.centered-inno {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    /*right: 0%;*/
+    transform: translate(-20%, -50%);
+}
+.inno-top-padd{
+    padding-top: 75px;
+}
+.container.container-inno{
+
+ }
+ .top-left-corner-inno{
+    position: absolute;
+    top: 18px;
+    left: 55px;
+    transform: translate(-40px, -50%);
+    color: white;
+    background-color: #F26522;
+}
+.iti-card-footer{
+    color: #656565;	
+    font-family: Roboto;	
+    font-size: 12px;	
+    font-style: italic;	
+    font-weight: bold;
+}
+.f-w5{
+    font-weight: 500;
+}
+.f-28{
+    font-size: 28px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+/******************************Innovation and Transformation CSS End******************************/
+
+/*Extra CSS        */
+.scrumble-img-box{
+    width: 217px;
+    height: 300px;
+}
+/******************************Calandar Month View CSS Start******************************/
+/* The container */
+.container-check-box {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;   
+  -ms-user-select: none;
+  user-select: none;
+  color: #656565;
+}
+
+/* Hide the browser's default checkbox */
+.container-check-box input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 2;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #fff;
+  
+  border: 2px solid gray;
+  border-radius: 3px;
+      margin-top: 2px;
+}
+
+/* On mouse-over, add a grey background color */
+.container-check-box:hover input ~ .checkmark {
+  background-color: #ccc;
+  border: 2px solid gray;
+  border-radius: 3px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-check-box input:checked ~ .checkmark {
+  background-color: #fff;
+  border: 2px solid red;
+  border-radius: 3px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  /*border: 2px solid red;*/
+  border-radius: 3px;
+}
+
+/* Show the checkmark when checked */
+.container-check-box input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-check-box .checkmark:after {
+  left: 4px;
+  top: 1px;
+  width: 5px;
+  height: 9px;
+  border: solid red;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.month-view-text{
+    	color: #656565;	
+        font-family: Roboto;	
+        font-size: 14px;	
+        letter-spacing: -0.58px;	
+        line-height: 19px;
+        font-weight: 500;
+}
+
+/*Accordian Start*/
+.accordion {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #fff;
+}
+
+.accordion:after {
+  content: '\25B8';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\25BE";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.panel.no-margin-bottom{
+    margin-bottom: 0px;
+}
+.cal-month-filter-text{
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 16px;
+    color: #656565;
+}
+/*Accordian  End*/
+
+
+
+/******************************Calandar Month View CSS End******************************/
+.centered1{
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    background-color: black;
+    width: 88%;
+    opacity: 0.6;
+    border-radius: 0 0 5px 5px;
+}
+.blog-btm-text{
+    color: transparent;
+    color: white;
+    font-weight: 500;
+}
+.padd-3{
+    padding: 5px;
+}
+
+/*updated home*/
+.top-left-corner-blog1 {
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #F26522;
+    border-radius: 5px 0 0 0;
+}
+
+/*custom scroll*/
+
+        /* width */
+        ::-webkit-scrollbar {
+        width: 8px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 3px grey; 
+        border-radius: 10px;
+        }
+        
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+        background: gray; 
+        border-radius: 10px;
+        }
+        
+/*custom scroll*/
+
+.border-radious4{
+ border-radius: 4px;
+}
+
+/*
+select {
+width: 200px;
+height: 20px;
+background-color: red;
+position: relative;
+box-shadow: 6px 6px 2px 2px #BF0B3E;
+}*/
+
+/**************************HR tab css start**************************/
+.border-orange, .hover-border-red:hover {
+    border-bottom: 2px solid #F26522!important;
+}
+
+.bottombar {
+    border-bottom: 2px solid transparent!important;
+}
+.hr-tab-full-width{
+    height: 45px;
+    background-color: white;
+    margin: 0px -15px 0px -15px;
+}
+.tab-text{
+    font-family: Roboto;	
+    font-size: 14px;	
+    font-weight: bold;	
+    line-height: 16px;
+}
+a.tabs:focus, a.tabs:hover {
+    color: #F26522;
+}
+.text-orange1{
+    color: #F26522;
+}
+.bread-crumb{
+    font-family: Roboto;	
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 19px;
+}
+.hr-title{
+    margin: 15px 0px 0px 0px;
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+}
+.hr-title-detail{
+    color: #656565;	
+    font-family: Roboto;	
+    font-size: 14px;	
+    line-height: 19px;
+}
+/**************************HR tab css end**************************/
+/**************************FA tab css Start**************************/
+.padd20{
+    padding: 20px;
+}
+.padd-t45{
+    padding-top: 45px;
+}
+.fa-box{
+    height: 268px;	
+    width: 280px;	
+    border-radius: 3px;	
+    background-color: #FFFFFF;	
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1);   
+}
+.fa-img-box{
+    height: 76px;	
+    width: 76px;	
+    border-radius: 10px;
+}
+.fa-img-box-title{
+    color: #333333;	
+    font-family: Roboto;	
+    font-size: 16px;	
+    font-weight: bold;	
+    line-height: 19px;
+}
+.fa-img-box-text{
+    color: #333333;	
+    font-family: Roboto;	
+    font-size: 14px;	
+    line-height: 19px;
+}
+.fa-loc-card{
+    height: 384px;	
+    max-width: 280px;
+    width: 100%;
+    border-radius: 3px;	
+    background-color: #FFFFFF;	
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1);
+}
+.fa-img-card {
+    height: 204px;	
+    width: 100%;	
+    background-color: rgba(0,0,0,0.3);
+}
+.loc-add-padd{
+    padding: 10%;
+}
+.padd-t20{
+    padding-top: 20px;
+}
+.color-b{
+    color: black;
+}
+.fa-profile-box{
+    height: 100px;	
+    width: 110px;	
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.3);
+}
+.display-flex{
+    display: flex;
+    display: -webkit-flex;
+}
+.padd-l{
+    padding-left: 20px;
+}
+.padd-t4p{
+    padding-top: 4%;
+}
+.padd-t10p{
+    padding-top: 10%;
+}
+/**************************FA tab css end**************************/
