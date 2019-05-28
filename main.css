@@ -2020,6 +2020,9 @@ a.tabs:focus, a.tabs:hover {
 .padd-t20{
     padding-top: 20px;
 }
+.padd-b20{
+    padding-bottom: 20px;
+}
 .color-b{
     color: black;
 }
@@ -2041,5 +2044,15 @@ a.tabs:focus, a.tabs:hover {
 }
 .padd-t10p{
     padding-top: 10%;
+}
+.red-dot{
+    height: 6px;	
+    width: 6px;	
+    background-color: #F26522;
+    border-radius: 50%;
+    margin: 7px 10px 7px 0px;
+}
+.lh2{
+    line-height: 2;
 }
 /**************************FA tab css end**************************/
