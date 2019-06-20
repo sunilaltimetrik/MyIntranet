@@ -2057,7 +2057,6 @@ a.tabs:focus, a.tabs:hover {
 }
 /**************************FA tab css end**************************/
 
-
 /**************************HR Under Team tab Vertical Tab css Start**************************/
 .tab.t-bg-color {
     float: left;
@@ -2107,3 +2106,45 @@ a.tabs:focus, a.tabs:hover {
       color: #000000;
   }
   /**************************HR Under Team tab Vertical Tab css End**************************/
+  .text-color-3{
+    color: #333333;
+  }
+  .org-certification-box{
+    /* min-height: 307px;		 */
+    border-radius: 3px;	
+    background-color: #FFFFFF;	
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1);
+  }
+ .policy-view-btn{
+     font: 14px;
+    height: 35px;	
+    width: 96px;	
+    color: #fff;
+    border-radius: 2px;	
+    background-color: #F26522;	
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.5);
+  }
+  .policy-view-btn:hover{
+    height: 35px;	
+    width: 96px;
+    color: #fff;	
+    border-radius: 2px;	
+    background-color: #F26522;	
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.5);
+    /* font-weight: bold; */
+  }
+  .org-certification-box-style{
+    padding: 55px 30px 30px 15px;
+  }
+  .h-45p{
+      height: 45px;
+  }
+  .org-certificate-logo{
+    width: 100%;
+    height: 100%;
+    text-align: start;
+    padding: 55px 0px 0px 30px;
+}
+.m-btm20{
+    margin-bottom: 20px;
+}

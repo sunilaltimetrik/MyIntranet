@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.fontawesome.com/da669e42df.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./w3.css">
+    <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="main-padd">
+        <div class="intra-body">
+            <!--Header Section Start-->
+
+            <!--Header Section End-->
+
+            <!--Main Body Section Start For NEWS Page-->
+            <div class="intra-main m-top50 " style="color: #656565;">
+                <div class="row">
+                    <div class="col-md-12 no-padd big-img-container">
+                        <img src="./assets/hr.png" alt="Intranet Logo" class="width100p max-h270 min-h200">
+                        <div class="centered">
+                            <div class="title-text">Policies</div>
+                            <!-- <div class="sub-title-text">Lorem Ipsum Lorem Ipsum</div> -->
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="">
+
+                    <div class="row">
+                        <div class="col-xs-12 col-md-12 f-18">
+                            <div class="">
+                                <div class="w3-row hr-tab-full-width">
+                                    <div class="container p-top10">
+                                        <a class="tabs" style=" text-decoration: unset;" href="javascript:void(0)" onclick="openPolicy(event, 'Policies');">
+                                            <div id="activeMe" style="padding: 0px 2px 10px 3px;" class="inline-block tablink bottombar tab-text">Policies</div>
+                                        </a>
+                                        <a class="tabs" style=" text-decoration: unset;" href="javascript:void(0)" onclick="openPolicy(event, 'Organization Certification');">
+                                            <div class="inline1 tablink bottombar tab-text">Organization Certification</div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="container">
+                                    <div class="row p-top15">
+                                        <div class="col-md-12 bread-crumb">
+                                            <span class="text-orange">Home</span> / Policies 
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="Policies" class="w3-container city" style="display:none">
+                                        <!-- <div class="row p-top15">
+                                            <div class="col-md-12 hr-title">
+                                                Career
+                                            </div>
+                                            <div class="col-md-12 hr-title-detail">
+                                                Identify opportunities – Assess, Develop and Plan your career at Altimetrik.
+                                            </div>
+                                        </div> -->
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-6 col-xs-12 p-top15">
+                                                <div class="fa-box">
+                                                    <div class="padd20">
+                                                        <div class="padd-btm20">
+                                                            <img src="./assets/fa_facilities.png" alt="Intranet Logo" class="">                                                            
+                                                        </div>
+                                                        <div class="fa-img-box-title padd-btm20">Capabilty Transformation Group</div>
+                                                        <div class="fa-img-box-text">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-xs-12 p-top15">
+                                                 <div class="fa-box">
+                                                    <div class="padd20">
+                                                        <div class="padd-btm20">
+                                                            <img src="./assets/fa_transport.png" alt="Intranet Logo" class="">                                                            
+                                                        </div>
+                                                        <div class="fa-img-box-title padd-btm20">Facilities & Administration</div>
+                                                        <div class="fa-img-box-text">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-xs-12 p-top15">
+                                                <div class="fa-box">
+                                                    <div class="padd20">
+                                                        <div class="padd-btm20">
+                                                            <img src="./assets/fa_Safety.png" alt="Intranet Logo" class="">                                                            
+                                                        </div>
+                                                        <div class="fa-img-box-title padd-btm20">IT Support</div>
+                                                        <div class="fa-img-box-text">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-xs-12 p-top15">
+                                                <div class="fa-box">
+                                                    <div class="padd20">
+                                                        <div class="padd-btm20">
+                                                            <img src="./assets/fa_travel.png" alt="Intranet Logo" class="">                                                            
+                                                        </div>
+                                                        <div class="fa-img-box-title padd-btm20">Legal</div>
+                                                        <div class="fa-img-box-text">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-xs-12 p-top15">
+                                                <div class="fa-box">
+                                                    <div class="padd20">
+                                                        <div class="padd-btm20">
+                                                            <img src="./assets/fa_travel.png" alt="Intranet Logo" class="">                                                            
+                                                        </div>
+                                                        <div class="fa-img-box-title padd-btm20">Management</div>
+                                                        <div class="fa-img-box-text">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6 col-xs-12 p-top15">
+                                                <div class="fa-box">
+                                                   <div class="padd20">
+                                                       <div class="padd-btm20">
+                                                           <img src="./assets/fa_transport.png" alt="Intranet Logo" class="">                                                            
+                                                       </div>
+                                                       <div class="fa-img-box-title padd-btm20">Procurement</div>
+                                                       <div class="fa-img-box-text">
+                                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <div class="col-md-3 col-sm-6 col-xs-12 p-top15">
+                                               <div class="fa-box">
+                                                   <div class="padd20">
+                                                       <div class="padd-btm20">
+                                                           <img src="./assets/fa_Safety.png" alt="Intranet Logo" class="">                                                            
+                                                       </div>
+                                                       <div class="fa-img-box-title padd-btm20">Sales</div>
+                                                       <div class="fa-img-box-text">
+                                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <div class="col-md-3 col-sm-6 col-xs-12 p-top15">
+                                               <div class="fa-box">
+                                                   <div class="padd20">
+                                                       <div class="padd-btm20">
+                                                           <img src="./assets/fa_travel.png" alt="Intranet Logo" class="">                                                            
+                                                       </div>
+                                                       <div class="fa-img-box-title padd-btm20">SDLC</div>
+                                                       <div class="fa-img-box-text">
+                                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="Organization Certification" class="w3-container city p-top15" style="display:none">
+                                        <div class="org-certification-box m-btm20">
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-3">
+                                                    <img src="./assets/certificate_logo.png" alt="Certificate Logo" class="org-certificate-logo">
+                                                </div>
+                                                <div class="col-md-9 col-sm-9 f-16 text-color-3">
+                                                    <div class="org-certification-box-style">
+                                                        <div class="text-justify">
+                                                            ISO 9001:2015 is set of standardized requirements for a Quality Management System (QMS).
+                                                            It is designed to help organizations ensure that they meet the needs of customers and
+                                                            other stakeholders while meeting statutory and regulatory requirements related to the
+                                                            product. Quality management means what the organization does to ensure that
+                                                            its products or services satisfy the customer's quality requirements and comply
+                                                            with any regulations applicable to those products or services. It also does
+                                                            to enhance customer satisfaction, and achieve continual improvement of its performance.
+                                                        </div>
+                                                        <div class="p-top30">
+                                                            Location : Bangalore,Chennai
+                                                        </div>
+                                                        <div class="p-top10">
+                                                            Valid From : 27-11-2017
+                                                        </div>
+                                                        <div class="p-top10 h-45p">
+                                                            Valid To : 26-11-2019
+                                                            <div class="pull-right">
+                                                                <button type="button" class="btn policy-view-btn">View</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="org-certification-box m-btm20">
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-3">
+                                                    <img src="./assets/certificate_logo.png" alt="Certificate Logo" class="org-certificate-logo">
+                                                </div>
+                                                <div class="col-md-9 col-sm-9 f-16 text-color-3">
+                                                    <div class="org-certification-box-style">
+                                                        <div class="text-justify">
+                                                            ISO 9001:2015 is set of standardized requirements for a Quality Management System (QMS).
+                                                            It is designed to help organizations ensure that they meet the needs of customers and
+                                                            other stakeholders while meeting statutory and regulatory requirements related to the
+                                                            product. Quality management means what the organization does to ensure that
+                                                            its products or services satisfy the customer's quality requirements and comply
+                                                            with any regulations applicable to those products or services. It also does
+                                                            to enhance customer satisfaction, and achieve continual improvement of its performance.
+                                                        </div>
+                                                        <div class="p-top30">
+                                                            Location : Bangalore,Chennai
+                                                        </div>
+                                                        <div class="p-top10">
+                                                            Valid From : 27-11-2017
+                                                        </div>
+                                                        <div class="p-top10 h-45p">
+                                                            Valid To : 26-11-2019
+                                                            <div class="pull-right">
+                                                                <button type="button" class="btn policy-view-btn">View</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="org-certification-box m-btm20">
+                                            <div class="row">
+                                                <div class="col-md-3 col-sm-3">
+                                                    <img src="./assets/certificate_logo.png" alt="Certificate Logo" class="org-certificate-logo">
+                                                </div>
+                                                <div class="col-md-9 col-sm-9 f-16 text-color-3">
+                                                    <div class="org-certification-box-style">
+                                                        <div class="text-justify">
+                                                            ISO 9001:2015 is set of standardized requirements for a Quality Management System (QMS).
+                                                            It is designed to help organizations ensure that they meet the needs of customers and
+                                                            other stakeholders while meeting statutory and regulatory requirements related to the
+                                                            product. Quality management means what the organization does to ensure that
+                                                            its products or services satisfy the customer's quality requirements and comply
+                                                            with any regulations applicable to those products or services. It also does
+                                                            to enhance customer satisfaction, and achieve continual improvement of its performance.
+                                                        </div>
+                                                        <div class="p-top30">
+                                                            Location : Bangalore,Chennai
+                                                        </div>
+                                                        <div class="p-top10">
+                                                            Valid From : 27-11-2017
+                                                        </div>
+                                                        <div class="p-top10 h-45p">
+                                                            Valid To : 26-11-2019
+                                                            <div class="pull-right">
+                                                                <button type="button" class="btn policy-view-btn">View</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+
+
+                        </div>
+                    </div>
+                    <!--Footer Section Start-->
+                    <div class="intra-footer p-top15">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="text-center detail-text f-12">
+                                    © Altimetrik. All rights reserved 2018
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Footer Section End-->
+                </div>
+
+            </div>
+            <!--Main Body Section End For NEWS Page-->
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <script>
+        // hamburger Method
+
+
+        // Search popup start
+
+        // Search popup end
+
+        // Add active class to the current Menu option (highlight it) Start
+
+        // Add active class to the current Menu option (highlight it) End
+        // side navigation main dropdown and sub menu Start
+
+
+        // side navigation main dropdown and sub menu End
+
+        //  Mobile device handling responsive ui start
+        $(document).ready(function () {
+            if (window.screen.width <= 425) {
+                // alert("screen size is small")
+                document.getElementById("bannerImg").setAttribute("style", "padding-right: 0px; padding-top: 15px;");
+                document.getElementById("pgImg").style.paddingRight = "0px";
+                document.getElementById("myLeave").setAttribute("style", "padding-right: 0px; padding-bottom: 15px;");
+                document.getElementById("timeSheet1").setAttribute("style", "padding-bottom: 15px;");
+                document.getElementById("travel").style.paddingRight = "0px";
+                document.getElementById("blog").style.paddingRight = "0px";
+                document.getElementById("gallery").setAttribute("style", "padding-right: 0px; padding-top: 15px;");
+                document.getElementById("thirdIssue").setAttribute("style", "padding-top: 15px;");
+
+                // $("#intraNetImg").attr("src","./assets/blog_img1.png");   
+            } if (window.screen.width > 425 && window.screen.width <= 768) {
+
+                // alert("screen size is Medium")
+                // this.intraNetImg = "./assets/blog_img2.png";
+                // $("#intraNetImg").attr("src","./assets/dcult_img.png");
+            }
+            if (window.screen.width >= 1024) {
+
+                // alert("screen size is Large")
+                // $("#intraNetImg").attr("src","./assets/main_img.png");
+            }
+        });
+        //  Mobile device handling responsive ui end
+
+        // HR Tabs view Start
+        $(document).ready(function () {
+            element = document.getElementById('activeMe');
+            //   tablinks = document.getElementsByClassName("tablink");
+            document.getElementById('Policies').style.display = "block";
+            // evt.currentTarget.firstElementChild.className += " w3-border-red";
+            // debugger;
+            element.classList.add("w3-border-red");
+            // tablinks.classList.add(" w3-border-red");
+
+        });
+        function openPolicy(evt, cityName) {
+            // debugger;
+            var i, x, tablinks;
+            x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            // debugger;
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            // debugger;
+            evt.currentTarget.firstElementChild.className += " w3-border-red";
+        }
+         // HR Tabs view End
+
+    </script>
+
+</body>
+
+</html>
